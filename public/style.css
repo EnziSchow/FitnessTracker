@@ -1,0 +1,90 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#app {
+  height: 100%;
+}
+
+.app {
+  /* display: flex; */
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.register {
+  display: flex;
+  height: 26px;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  height: 26px;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: #242424;
+  border: none;
+  transition: all 0.3s ease-out;
+}
+
+.routine-display {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.routine-card {
+  padding: 2px 16px;
+  border: 2px black solid;
+  border-radius: 4px;
+  padding: 10px;
+  width: 400px;
+  margin: 10px;
+}
+
+.activity-display {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.activity-card {
+  padding: 2px 16px;
+  border: 2px black solid;
+  border-radius: 4px;
+  padding: 10px;
+  width: 400px;
+  margin: 10px;
+}
+
+/* .createRoutineForm {
+  padding: 8px;
+} */
